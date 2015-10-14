@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pifss.myway.DriverDestenationList" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/Users/Darky_Yosemite/Downloads/Google-Directions-Android-master/MyWay-Android-LAST_ECLIPSE1/app/src/main/res/menu/driver_destenation_list.xml -->

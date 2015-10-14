@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.driverprofile.MainActivity" >
+
+    <item 
+        android:id="@+id/addJourney"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="@string/add_journey"/>
+
+</menu>
+<!-- From: file:/Users/Darky_Yosemite/Downloads/Google-Directions-Android-master/MyWay-Android-LAST_ECLIPSE1/app/src/main/res/menu/driver_profile.xml -->
