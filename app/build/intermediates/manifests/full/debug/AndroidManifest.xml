@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pifss.myway"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.pifss.myway.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+        />
+    <uses-permission android:name="com.pifss.myway.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_default_profile_img"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pifss.myway.LoginRegisterActivity"
+            android:label="@string/app_name" >
+
+            <!-- launcher was here -->
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Temp1Activity"
+            android:label="@string/title_activity_temp1" >
+        </activity>
+        <activity android:name="com.pifss.myway.ProfileHomeActivity" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.ProfileEditActivity"
+            android:label="@string/title_activity_profile_edit" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> <!-- set this filter with the screen you want to start with -->
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Home"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.UISettings"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_TrafficMain"
+            android:label="@string/title_activity_traffic_main" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_AccidentReport"
+            android:label="@string/title_activity_activity__accident_report" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_TrafficJam"
+            android:label="@string/title_activity_activity__traffic_jam" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_hazard"
+            android:label="@string/title_activity_activity_hazard" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_other"
+            android:label="@string/title_activity_activity_other"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_ViewReport"
+            android:label="@string/title_activity_activity__view_report" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Activity_ReportDetails"
+            android:label="@string/title_activity_activity__report_details" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.POIActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.POI1Activity"
+            android:label="@string/title_activity_poi1" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.POI2Activity"
+            android:label="@string/title_activity_poi2" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.POI3Activity"
+            android:label="@string/title_activity_poi3" >
+        </activity>
+        <activity android:name="com.pifss.myway.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.ParentalMonitoringActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.ParentMonitoring_Pairing"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.ParentMonitoring_Pairing_DriverPairing"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.DriverProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.ParentMonitoring_Report_CustomListView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.Parent_monitoring_report"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.MonitoringActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.DriverMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBdNhqT8VrAn_r9Q7JY7sqKi7HUmVNstVA" />
+
+        <activity
+            android:name="com.pifss.myway.FavoritesViewActivity"
+            android:label="@string/title_activity_favorites_view" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.AddFavoriteActivity"
+            android:label="@string/title_activity_add_favorite" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.PointOnMapAvtivity"
+            android:label="@string/title_activity_point_on_map_avtivity" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.T3MapActivity"
+            android:label="@string/title_activity_t3_map" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.MapPointActivity"
+            android:label="@string/title_activity_map_point" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.EventsViewActivity"
+            android:label="@string/title_activity_events_view" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.EventsCategoriesViewActivity"
+            android:label="@string/title_activity_events_categories_view" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.EventInfoViewActivity"
+            android:label="@string/title_activity_event_info_view" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.RequestEventActivity"
+            android:label="@string/title_activity_request_event" >
+        </activity>
+        <activity android:name="com.pifss.myway.SetLocationActivity" >
+        </activity>
+        <activity
+            android:name="com.pifss.myway.DriverDestenationList"
+            android:label="@string/title_activity_driver_destenation_list" >
+        </activity>
+        <activity android:name="com.pifss.myway.direction.DirectionMapsActivity" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pifss.myway.findPlace.FindPlaceActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <!-- Points to searchable activity -->
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".findPlace.FindPlaceActivity" />
+
+            <!-- Points to searchable meta data -->
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            android:name="com.pifss.myway.findPlace.PlaceProvider"
+            android:authorities="com.pifss.myway.findPlace.PlaceProvider"
+            android:exported="false" />
+
+        <activity android:name="com.pifss.myway.MapDriverList" >
+        </activity>
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.pifss.myway.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

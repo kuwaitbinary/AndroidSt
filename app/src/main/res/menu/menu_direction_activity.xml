@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<item-->
+        <!--android:id="@+id/menu"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never"-->
+       <!--/>-->
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/menu_findAddress"-->
+            <!--android:orderInCategory="1"-->
+            <!--android:showAsAction="never"-->
+            <!--android:title="Find Address"/>-->
+        <!--<item-->
+            <!--android:id="@+id/menu_getDirection"-->
+            <!--android:orderInCategory="2"-->
+            <!--android:showAsAction="never"-->
+            <!--android:title="Get Direction"/>-->
+
+        <item
+            android:id="@+id/menu_onFav"
+            android:orderInCategory="3"
+            android:showAsAction="never"
+            android:title="on/Off Favourite"/>
+
+        <item
+            android:id="@+id/menu_onTraffic"
+            android:orderInCategory="4"
+            android:showAsAction="never"
+            android:title="on/Off Traffic"/>
+
+        <item
+            android:id="@+id/menu_navigate"
+            android:orderInCategory="5"
+            android:showAsAction="never"
+            android:title="Navigate" />
+    </group>
+
+    <item android:id="@+id/findPlace"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="findPlace"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+</menu>
