@@ -120,7 +120,7 @@ public class DriverDestenationList extends Activity {
 // TODO Auto-generated method stub
 
 			try {
-				URI u = new URI("http://192.168.8.102:8080/MyWayWeb/setDriverDashBoard");
+				URI u = new URI("http://54.88.107.56:80/MyWayWeb/setDriverDashBoard");
 				DefaultHttpClient client = new DefaultHttpClient();
 				HttpPost post = new HttpPost(u);
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
@@ -191,7 +191,7 @@ public class DriverDestenationList extends Activity {
 //	currentLocalTime = cal.getTime();
 //	date = new SimpleDateFormat("HH:mm a");
 			try {
-				URI u = new URI("http://192.168.8.102:8080/MyWayWeb/postDriverReport");
+				URI u = new URI("http://54.88.107.56:80/MyWayWeb/postDriverReport");
 				DefaultHttpClient client = new DefaultHttpClient();
 				HttpPost post = new HttpPost(u);
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
@@ -277,7 +277,7 @@ public class DriverDestenationList extends Activity {
 					Log.d("bader", "DO IN BACKGROUND RUNNING");
 
 					ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
-					URI u = new URI("http://192.168.8.102:8080/MyWayWeb/getDestination");
+					URI u = new URI("http://54.88.107.56:80/MyWayWeb/getDestination");
 					DefaultHttpClient client = new DefaultHttpClient();
 					HttpPost post = new HttpPost(u);
 					urlparameters.add(new BasicNameValuePair("driverUserName", "omar"));

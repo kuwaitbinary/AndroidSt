@@ -29,4 +29,4 @@
 		android:layout_below="@id/spr_place_type"
 		class="com.google.android.gms.maps.SupportMapFragment" />	
     
-</RelativeLayout><!-- From: file:/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/Volumes/for%20Yosemite/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/src/main/res/layout/activity_main.xml -->

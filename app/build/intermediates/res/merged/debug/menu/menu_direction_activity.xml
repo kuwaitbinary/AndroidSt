@@ -45,4 +45,4 @@
         android:showAsAction="collapseActionView|ifRoom"
         android:actionViewClass="android.widget.SearchView" />
 </menu>
-<!-- From: file:/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/src/main/res/menu/menu_direction_activity.xml -->
+<!-- From: file:/Volumes/for%20Yosemite/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/src/main/res/menu/menu_direction_activity.xml -->
