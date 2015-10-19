@@ -501,5 +501,5 @@ public class DirectionMapsActivity extends FragmentActivity implements OnMapRead
         }
 
     }
-    
+
     }
