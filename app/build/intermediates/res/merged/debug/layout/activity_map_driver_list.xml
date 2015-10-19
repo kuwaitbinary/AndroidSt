@@ -3,4 +3,4 @@
     xmlns:map="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
     android:layout_height="match_parent" android:id="@+id/map"
     tools:context="com.pifss.myway.MapDriverList"
-    android:name="com.google.android.gms.maps.SupportMapFragment" /><!-- From: file:/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/src/main/res/layout/activity_map_driver_list.xml -->
+    android:name="com.google.android.gms.maps.SupportMapFragment" /><!-- From: file:/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/res/layout/activity_map_driver_list.xml -->

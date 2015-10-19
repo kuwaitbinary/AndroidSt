@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
@@ -14,6 +15,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
@@ -28,19 +30,23 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ProfileHomeActivity extends Activity {
 
 //	public final static String PREF_NAME = "userInformation";
-	private final InformationManager imm = new InformationManager(this);
+
+	Context context;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile_home);
-		
+
+		context = this;
+		final InformationManager imm = new InformationManager(this);
 		////////////////////// To set the user info on the profile ////////////////////////
-		
+
 		JSONObject userJson;
 		userJson = imm.getUserInformation();
 		String username = "";
@@ -51,7 +57,9 @@ public class ProfileHomeActivity extends Activity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
+		//Toast.makeText(this,username,Toast.LENGTH_LONG).show();
+
 		String [] stringArray = {username};
 		new GetUserInfo().execute(stringArray);
 		
@@ -142,59 +150,54 @@ public class ProfileHomeActivity extends Activity {
 		@Override
 		protected User doInBackground(String... params) {
 			// TODO Auto-generated method stub
-			
-			JSONArray userInfoJson = new JSONArray();
-			JSONObject user = new JSONObject();
-			
+
+			User user = new User();
+
 			try {
-				URI uri = new URI("");
-				
+				URI uri = new URI("http://54.88.107.56:80/MyWayWeb/getUserProfile");
+
 				DefaultHttpClient client = new DefaultHttpClient();
-				
+
 				HttpPost postRequest = new HttpPost(uri);
-				
+
 				ArrayList<BasicNameValuePair> arrayList = new ArrayList<BasicNameValuePair>();
 				arrayList.add(new BasicNameValuePair("username", params[0]));
-				
+
+				postRequest.setEntity(new UrlEncodedFormEntity(arrayList));
+
 				HttpResponse response = client.execute(postRequest);
-				
+
 				HttpEntity entity = response.getEntity();
-			    String jsonString = EntityUtils.toString(entity);
-			    
-			    JSONObject jsonData = new JSONObject(jsonString);
-			    
-			    userInfoJson = new JSONArray(jsonData.getString("result_data"));
-			    
-			} catch(Exception e) {
-				
+
+				String jsonString = EntityUtils.toString(entity);
+
+				JSONObject jsonData = new JSONObject(jsonString);
+
+				JSONArray userInfoJson = new JSONArray(jsonData.getString("result_data"));
+
+				JSONObject json = new JSONObject(userInfoJson.getString(0));
+
+				user = new User(params[0], json.getString("password"), json.getString("email"), json.getString("profile_picture"));
+			} catch (Exception e) {
+
 			}
-			
-			try {
-				user = userInfoJson.getJSONObject(0);
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-			try {
-				return new User(params[0],user.getString("password"),user.getString("email"),user.getString("profile_picture"));
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-			return null;
+
+			return user;
 		}
 		
 		@Override
 		protected void onPostExecute(User user) {
 			// TODO Auto-generated method stub
 			super.onPostExecute(user);
-			
+
+			final InformationManager imm = new InformationManager(context);
+
 			TextView tvUsername = (TextView) findViewById(R.id.textViewProfileUsername);
 			ImageView userImg = (ImageView) findViewById(R.id.imageViewProfileImage);
-			
+
 			tvUsername.setText(user.getUsername());
+			Toast.makeText(context,"email = " + user.getEmail(), Toast.LENGTH_LONG).show();
+
 			userImg.setImageBitmap(imm.decodeBase64(user.getProfilePicture()));
 			//set email
 			

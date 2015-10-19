@@ -18,12 +18,16 @@ public class InformationManager {
 	
 	Context context;
 	SharedPreferences prefs;
-	public final static String PREF_NAME = "userInformation";
+	//public final static String PREF_NAME = "userInformation";
 	
 	public InformationManager(Context context) {
 		super();
 		this.context = context;
-		prefs = context.getSharedPreferences(PREF_NAME, context.MODE_APPEND);
+
+		String PREF_NAME = "userInformation";
+
+		//prefs = context.getSharedPreferences(PREF_NAME, context.MODE_APPEND);
+		prefs = context.getSharedPreferences(PREF_NAME, 0);
 	}
 
 	
@@ -94,8 +98,17 @@ public class InformationManager {
 		return null;
 	}
 	
-	public void logIn(Activity a){
+	public void logIn(Activity a, String username){
+		JSONObject json = new JSONObject();
+
+		try {
+			json.put("username", username);
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+
 		Editor editor = prefs.edit();
+		editor.putString("user", json.toString());
 		editor.putBoolean("isLoggedIn",true);
 		editor.commit();
 		SlidingUtil.changeMenu(true, a);

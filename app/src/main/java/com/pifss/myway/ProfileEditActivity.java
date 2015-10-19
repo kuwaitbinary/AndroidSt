@@ -241,7 +241,7 @@ public class ProfileEditActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 				try {
-					URI uri = new URI("");
+					URI uri = new URI("http://54.88.107.56:80/MyWayWeb/updateUserProfile");
 					
 					DefaultHttpClient client = new DefaultHttpClient();
 					

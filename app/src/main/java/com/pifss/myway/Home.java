@@ -76,7 +76,7 @@ public class Home extends Activity {
 
 
 						if(prefs.getBoolean("isLoggedIn", false)){//if logged in he can add new POI
-							Intent i = new Intent(Home.this, ParentalMonitoringActivity.class);
+							Intent i = new Intent(Home.this, DriverDestenationList.class);
 							startActivity(i);
 							finish();
 						} else {

@@ -64,8 +64,9 @@ public class Fragment_Login extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				
-				new Login().execute();
+
+				String[] params = {etUsernameLogin.getText().toString(), etPasswordLogin.getText().toString()};
+				new Login().execute(params);
 
 				/*SharedPreferences pref = v.getContext().getSharedPreferences(
 						PREF_NAME, v.getContext().MODE_APPEND);
@@ -164,24 +165,24 @@ public class Fragment_Login extends Fragment {
 		return v;
 	}
 	
-	class Login extends AsyncTask<Void, Void, Boolean> {
-		
+	class Login extends AsyncTask<String, Void, Boolean> {
+
 		@Override
-		protected Boolean doInBackground(Void... params) {
+		protected Boolean doInBackground(String... params) {
 			// TODO Auto-generated method stub
 			
 			Boolean validData = true;
 			
 			try {
-				URI uri = new URI("");
+				URI uri = new URI("http://54.88.107.56:80/MyWayWeb/loginUser");
 				
 				DefaultHttpClient client = new DefaultHttpClient();
 				
 				HttpPost postRequest = new HttpPost(uri);
 				
 				ArrayList<BasicNameValuePair> arrayList = new ArrayList<BasicNameValuePair>();
-				arrayList.add(new BasicNameValuePair("username", etUsernameLogin.getText().toString()));
-				arrayList.add(new BasicNameValuePair("password", etPasswordLogin.getText().toString()));
+				arrayList.add(new BasicNameValuePair("username", params[0]));
+				arrayList.add(new BasicNameValuePair("password", params[1]));
 				
 				postRequest.setEntity(new UrlEncodedFormEntity(arrayList));
 				
@@ -194,6 +195,7 @@ public class Fragment_Login extends Fragment {
 			    
 			    if (jsonData.getString("result_code").equals("1"))
 			    	validData = false;
+
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -207,11 +209,13 @@ public class Fragment_Login extends Fragment {
 			// TODO Auto-generated method stub
 			super.onPostExecute(result);
 			
-			if (result == true) {
-				
-				Intent i = new Intent(v.getContext(), ProfileHomeActivity.class);
+			if (result) {
+
+				//Intent i = new Intent(v.getContext(), ProfileHomeActivity.class);
+				Intent i = new Intent(getActivity(), ProfileHomeActivity.class);
+
 				InformationManager im = new InformationManager(v.getContext());
-				im.logIn(getActivity());
+				im.logIn(getActivity(), etUsernameLogin.getText().toString());
 			
 				startActivity(i);
 				getActivity().finish();

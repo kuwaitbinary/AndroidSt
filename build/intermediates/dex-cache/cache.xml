@@ -2,207 +2,207 @@
 <items version="2" >
 
     <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-582ae9f7eade353dd4591433ceaa69f8edb9febf.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-7112437252b11e711337762903fcf4b4c02496e7.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-6c5f75d8b6733c57226776bfcda34fbb6731acde.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-2abcf06180658e88eca1cdce50a8f3f9edbe11dc.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-9bf85a1f466804779f672c65497b9632134ee1ce.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-fa81a9d298d82fa2e150a1cc52a39756de5daa21.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-acad95081ac2c770f5423b05e63621a2300d8bfd.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-b9622134295e9115822a5ce15ef08b2628dc34a8.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-8223aa5c06abcda59b2e687688d8a70c421b6841.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-05dfdc0198ec932a0cf8021ad58dc76e7f4f4631.jar" />
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-513327e2dc5cc555b091f1e225bb1fafd0c63d03.jar" />
     </item>
     <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e87ea7c94f0d9cc48b074e8e0c11316138877041.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="997773777cf3904c11d6764fe3b7668538220e49">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-d6c44cf8d0df8f75ce4ae8541344a8ba5c27a9cd.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-9fd4d1aef1b05380c779ba8851456a225d38dbe2.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-6c2ecf3f8d941db88064895674be301901c9334f.jar" />
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-cfc4592764ff759c84120ff4861fd65c12ca5c9d.jar" />
     </item>
     <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-354bfc26091cc6407a52be768afcdaa1c9f0321b.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-36a5d9611a0489f503d24ba794b46b5fe2cf7eb5.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-cec4b9e3b207440f9bb161209ba1e041a259e7d7.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-befc413e8366bbc12de1a21be8a22c98e1923934.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-73906c21cc3d7c1ef7448b8cd3b1b8d3b62a395f.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-b7309bd563394726a67c8451048d9d37cc94dea3.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="95758a2905669affbffc5ddd262921d375674fad">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-12699334d524db31f6c933a6c1687529b7b1a973.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="482de223655d06253cc6a4955d653f8994169500">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-a9e8d785c720b886dfc4d87dd5ec721da3f4f8c7.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-69d1545912d9a2a0f78af48a06f78dd474fbd6f1.jar" />
-    </item>
-    <item
-        jar="/Volumes/Darkling/Users/darky/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-27b7bb83418415209cc9cca8b73146be754d859e.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-7ac542dac50da8f248e47de5c3b2716a2579cd18.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-d0c83de1bba96d87f02ad2182f3f3574260b9153.jar" />
-    </item>
-    <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/jars/classes.jar"
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="0e4072fd48238419f424a112fdeb828d91f69e1a">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-af8e52c8703e217d532ab1d4113d8cd16f3b985f.jar" />
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-02ca40107a2d46d8414d70e8b4109cdd60eedcbc.jar" />
     </item>
     <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3178362320bcf51228835b60ff978efadfd1f783">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-9bf6da9424c633231640a2def639a679d5e67ab8.jar" />
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-538e6345fa41080aa0ab13b6a8ffebe9bfb03d70.jar" />
     </item>
     <item
-        jar="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-d246f6422695ddabe6d19d13483b43bbb8df7ccf.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-d0df7addf95314489b2d4ee8316f3bf3fa4c9cf8.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-c9282f9ff97f032c454768848c19b4d50e9fc79f.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-ea55689bb00337e8b9e2bb2a62065d62b1b0d2a1.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-bc8e9bed54c3370e9202934fe165847d249f68a4.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-e5d200fd3e1d8f174fbf1b44a433dbb82f1d21b4.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-7669fb4894662913a1acf7df7d69f9305174bb10.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-9807c4e951fcd08596d64d8f93009b6016c1cc55.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="17449c47df35c754b257532052f1270c444f7993">
-        <dex dex="/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/pre-dexed/debug/classes-92b0895937c3eae1562ceffbda4a4192d5be2e6f.jar" />
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-f2da3eea9ac97a979da3ea56563706679131f1ae.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_dev/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e46c9d1b9ea069381a3765f90e2f48650fef1d80.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7dca4f7d2ca23008e3ba4fe2dcb57e6f49f4af6a.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-19d32ff9cfed8029bced50c3e744be071edd8433.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-a6e848fa76336ed9fb7e9fe89cab78ad1745707e.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-ca266c90e5b029d420bd541ff58db998c56f4118.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-d5dbcff5669653e2c8e1985e896986f7614dabdd.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-13eeaf71537f29ac02f6ffc5b8d7a8ca382f0787.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-e7cbd92a57d35ee7df0a31a9581fa5fb67fe7dc9.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-457167d4d9141d04a104e1452c384044b0094526.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-03b7daaf422192adb7c9b2d9cb169c0d12a11903.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-492efc230b938795ea6a7b0d9e8b04729f168da8.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-c296fa8d2aaea4ff9deec2693acb0829761ff1a7.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-b780a6604b89511ffb2ee6ca78ae989314daa1b0.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-66c3f9c90bb9ecf0678f05091b59c4e1a8eb6a91.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-0383f406b13ea6b1391a0e518704e93ee7f628d6.jar" />
+    </item>
+    <item
+        jar="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/pre-dexed/debug/classes-8734f9cb810cda803fd973658f61c551dcd0c2be.jar" />
     </item>
 
 </items>

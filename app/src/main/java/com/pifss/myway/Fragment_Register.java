@@ -22,6 +22,9 @@ import android.app.AlertDialog.Builder;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.PorterDuff;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -104,11 +107,7 @@ public class Fragment_Register extends Fragment {
 			flag3 = true;
 		}
 
-		if (flag1 == true && flag2 == true && flag3 == true) {
-			return true;
-		} else {
-			return false;
-		}
+		return flag1 == true && flag2 == true && flag3 == true;
 	} // end of method
 	
 	class Registration extends AsyncTask<User, Void, Void> {
@@ -118,17 +117,21 @@ public class Fragment_Register extends Fragment {
 			// TODO Auto-generated method stub
 			
 			try {
-				URI uri = new URI("");
+				URI uri = new URI("http://54.88.107.56:80/MyWayWeb/registerUser");
 				
 				DefaultHttpClient client = new DefaultHttpClient();
 				
 				HttpPost postRequest = new HttpPost(uri);
+
+				int imageresource = getResources().getIdentifier("@drawable/default_profile_picture.png", "drawable", getActivity().getPackageName());
+				Bitmap image = BitmapFactory.decodeResource(getResources(), imageresource);
 				
 				ArrayList<BasicNameValuePair> arrayList = new ArrayList<BasicNameValuePair>();
 				arrayList.add(new BasicNameValuePair("username", params[0].getUsername()));
 				arrayList.add(new BasicNameValuePair("password", params[0].getPassword()));
 				arrayList.add(new BasicNameValuePair("email", params[0].getEmail()));
-				// profile pic
+				arrayList.add(new BasicNameValuePair("profilepicture", InformationManager.encodeTobase64(image)));
+
 				postRequest.setEntity(new UrlEncodedFormEntity(arrayList));
 				
 				HttpResponse response = client.execute(postRequest);
@@ -156,7 +159,7 @@ public class Fragment_Register extends Fragment {
 			Boolean usernameAvailable = true;
 			
 			try {
-				URI uri = new URI("");
+				URI uri = new URI("http://54.88.107.56:80/MyWayWeb/checkUsername");
 				
 				DefaultHttpClient client = new DefaultHttpClient();
 				
@@ -172,12 +175,16 @@ public class Fragment_Register extends Fragment {
 			    
 			    JSONObject jsonData = new JSONObject(jsonString);
 			    
-			    if (jsonData.getString("result_code").equals("1"))
+			    if (jsonData.getString("result_code").equals("0"))
 			    	usernameAvailable = false;
+
+
 			} catch(Exception e) {
 				
 			}
-			
+
+			//Toast.makeText(v.getContext(),"result code = " + jsonData.getString("result_code"), Toast.LENGTH_LONG).show();
+
 			return usernameAvailable;
 		}
 		
@@ -189,41 +196,26 @@ public class Fragment_Register extends Fragment {
 			if (usernameAvailable) {
 				
 				try {
-					
+					Toast.makeText(v.getContext(), "Register success", Toast.LENGTH_LONG).show();
+
 					User[] userArray = {new User(userName.getText().toString(),passWord.getText().toString(),email.getText().toString())};
 					
 					new Registration().execute(userArray);
-					
-					JSONObject json = new JSONObject();
-					
-					json.put("username", userName.getText().toString());
-					json.put("password", passWord.getText().toString());
-					json.put("email", email.getText().toString());
 
-					SharedPreferences prefs = v.getContext()
-							.getSharedPreferences(PREF_NAME,
-									v.getContext().MODE_APPEND);
+					Intent i = new Intent(getActivity(), ProfileHomeActivity.class);
 
-					Editor editor = prefs.edit();
-
-					editor.putString("user", json.toString());
-
-					editor.commit();
 					InformationManager im = new InformationManager(v.getContext());
-					im.logIn(getActivity());
-					Intent i = new Intent(v.getContext(),
-							ProfileHomeActivity.class);
+					im.logIn(getActivity(), userName.getText().toString());
+
 					startActivity(i);
-					getActivity().finish();// to prevent going back to the
-											// previous page
-				//} catch (JSONException e) {
+					getActivity().finish();
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				
 			} else {
-				Toast.makeText(v.getContext(), "Username not available. Try diffrent username", Toast.LENGTH_LONG).show();
+				Toast.makeText(v.getContext(), "Username not available. Try different username", Toast.LENGTH_LONG).show();
 			}
 		}
 		

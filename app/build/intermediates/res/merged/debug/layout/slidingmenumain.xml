@@ -2,4 +2,4 @@
 <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/slidingmenumain"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" /><!-- From: file:/Users/johnzaccone/Desktop/SlidingMenu-aar/SlidingMenu/library/res/layout/slidingmenumain.xml --><!-- From: file:/Users/Darky_Yosemite/Desktop/AndroidForked/AndroidSt-master/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/res/layout/slidingmenumain.xml -->
+    android:layout_height="fill_parent" /><!-- From: file:/Users/johnzaccone/Desktop/SlidingMenu-aar/SlidingMenu/library/res/layout/slidingmenumain.xml --><!-- From: file:/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/res/layout/slidingmenumain.xml -->
