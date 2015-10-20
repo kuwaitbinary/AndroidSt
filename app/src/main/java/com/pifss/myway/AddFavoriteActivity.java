@@ -158,7 +158,7 @@ public class AddFavoriteActivity extends Activity {
 				HttpPost post = null;
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
 
-				u = new URI("http://172.16.8.105:8080/MyWayWeb/addFavorite");
+				u = new URI("http://54.88.107.56:80/MyWayWeb/addFavorite");
 				post = new HttpPost(u);
 
 				SharedPreferences pref = getSharedPreferences(PREF_NAME,

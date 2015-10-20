@@ -111,30 +111,47 @@ public class Fragment_Register extends Fragment {
 	} // end of method
 	
 	class Registration extends AsyncTask<User, Void, Void> {
+
+		User user;
+
+		JSONObject jsonData;
 		
 		@Override
 		protected Void doInBackground(User... params) {
 			// TODO Auto-generated method stub
+
+			user = params[0];
 			
 			try {
 				URI uri = new URI("http://54.88.107.56:80/MyWayWeb/registerUser");
-				
+				System.out.print("helllllllllloooooooooooooomaaarrrr1");
 				DefaultHttpClient client = new DefaultHttpClient();
 				
 				HttpPost postRequest = new HttpPost(uri);
-
+				System.out.print("helllllllllloooooooooooooomaaarrrr2");
 				int imageresource = getResources().getIdentifier("@drawable/default_profile_picture.png", "drawable", getActivity().getPackageName());
 				Bitmap image = BitmapFactory.decodeResource(getResources(), imageresource);
-				
+				System.out.print("helllllllllloooooooooooooomaaarrrr3");
 				ArrayList<BasicNameValuePair> arrayList = new ArrayList<BasicNameValuePair>();
 				arrayList.add(new BasicNameValuePair("username", params[0].getUsername()));
 				arrayList.add(new BasicNameValuePair("password", params[0].getPassword()));
 				arrayList.add(new BasicNameValuePair("email", params[0].getEmail()));
-				arrayList.add(new BasicNameValuePair("profilepicture", InformationManager.encodeTobase64(image)));
-
-				postRequest.setEntity(new UrlEncodedFormEntity(arrayList));
+				arrayList.add(new BasicNameValuePair("profilepicture", ""));
+				//arrayList.add(new BasicNameValuePair("profilepicture", InformationManager.encodeTobase64(image)));
+				System.out.print("helllllllllloooooooooooooomaaarrrr4");
+				UrlEncodedFormEntity urlEntinty = new UrlEncodedFormEntity(arrayList);
+				System.out.print("hellllllllllooooooooooooo");
+				System.out.print(urlEntinty.toString());
+				postRequest.setEntity(urlEntinty);
 				
 				HttpResponse response = client.execute(postRequest);
+
+				HttpEntity entity = response.getEntity();
+				String jsonString = EntityUtils.toString(entity);
+
+				jsonData = new JSONObject(jsonString);
+
+
 			} catch (Exception e) {
 				
 			}
@@ -146,6 +163,8 @@ public class Fragment_Register extends Fragment {
 		protected void onPostExecute(Void result) {
 			// TODO Auto-generated method stub
 			super.onPostExecute(result);
+
+			Toast.makeText(v.getContext(), "json = " + jsonData.toString(), Toast.LENGTH_LONG).show();
 		}
 		
 	}
@@ -196,10 +215,12 @@ public class Fragment_Register extends Fragment {
 			if (usernameAvailable) {
 				
 				try {
-					Toast.makeText(v.getContext(), "Register success", Toast.LENGTH_LONG).show();
+					//Toast.makeText(v.getContext(), "Register success", Toast.LENGTH_LONG).show();
 
-					User[] userArray = {new User(userName.getText().toString(),passWord.getText().toString(),email.getText().toString())};
-					
+					User user = new User(userName.getText().toString(),passWord.getText().toString(),email.getText().toString());
+
+					User[] userArray = {user};
+					Toast.makeText(v.getContext(), "username = " + user.getUsername(), Toast.LENGTH_LONG).show();
 					new Registration().execute(userArray);
 
 					Intent i = new Intent(getActivity(), ProfileHomeActivity.class);

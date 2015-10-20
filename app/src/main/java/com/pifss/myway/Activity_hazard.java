@@ -213,7 +213,7 @@ public class Activity_hazard extends Activity {
 				
 				
 				try {
-					URI u=new URI("http://172.16.8.105:8080/MyWayWeb/postTrafficReport");
+					URI u=new URI("http://54.88.107.56:80/MyWayWeb/postTrafficReport");
 					
 					DefaultHttpClient client=new DefaultHttpClient();
 					

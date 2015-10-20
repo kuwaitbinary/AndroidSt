@@ -14,6 +14,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -41,10 +42,14 @@ public class ProfileEditActivity extends Activity {
 	InformationManager imm;
 	View view;
 
+	Context context;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile_edit);
+
+		context = this;
 
 		imm = new InformationManager(this);
 
@@ -267,7 +272,7 @@ public class ProfileEditActivity extends Activity {
 				// TODO Auto-generated method stub
 				super.onPostExecute(result);
 				
-				Intent i = new Intent(view.getContext(),
+				Intent i = new Intent(context,
 						ProfileHomeActivity.class);
 				startActivity(i);
 				finish();

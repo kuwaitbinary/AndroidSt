@@ -194,7 +194,7 @@ public class Activity_other extends Activity {
 			URI u = null;
 			
 			try {
-				 u=new URI("http://172.16.8.105:8080/MyWayWeb/postTrafficReport");
+				 u=new URI("http://54.88.107.56:80/MyWayWeb/postTrafficReport");
 				
 				DefaultHttpClient client=new DefaultHttpClient();
 				

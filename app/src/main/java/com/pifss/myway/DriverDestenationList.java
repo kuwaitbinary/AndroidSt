@@ -29,6 +29,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DriverDestenationList extends Activity {
 	static ArrayList<Driver> driverDesList = new ArrayList<Driver>();
@@ -39,7 +40,7 @@ public class DriverDestenationList extends Activity {
 //	Date currentLocalTime ;
 //	SimpleDateFormat date ;
 	Context context;
-	int i = 0;
+
 	public static String dStartLat;
 	public static String dStartLon;
 
@@ -48,21 +49,24 @@ public class DriverDestenationList extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_driver_destenation_list);
+
+		context = this;
+
 //	IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
 //	Intent batteryStatus = context.registerReceiver(null, ifilter);
 //	int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 //	int scale = batteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
 //
 //	float batteryPct = level / (float)scale;
-		getJSON();
-		new postDriverDashBoardTask().execute("");
 
+		new postDriverDashBoardTask().execute("");
+		new RetrieveDestinationsTask().execute();
 		if (!isFinishing()){
 
 			new postDriverReportTask().execute("");
 		}
 
-		getJSON();
+
 
 		tvDestination = (TextView) findViewById(R.id.DestinationLocationDriver);
 		tvDestination.setText("Press Here To Show Your Destenation");
@@ -130,12 +134,20 @@ public class DriverDestenationList extends Activity {
 				HttpPost post = new HttpPost(u);
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
 
+				final InformationManager imm;
+				imm = new InformationManager(context);
+				JSONObject userJson;
+				userJson = imm.getUserInformation();
+				String tempUsername = "";
+				try {
+					tempUsername = userJson.getString("username");
+				} catch (Exception e) {
 
-				String tempUsername = "karim";
+				}
 
 
 
-				String battreyPrec = "90";
+				String battreyPrec = "60";
 				String lon = "44.22";
 				//String.valueOf(location.getLongitude());
 				String lat = "22.43";
@@ -186,16 +198,14 @@ public class DriverDestenationList extends Activity {
 
 	class postDriverReportTask extends AsyncTask<String, Integer, String> {
 		//		String localTime = date.format(currentLocalTime);
-		ProgressDialog dialog = new ProgressDialog(DriverDestenationList.this);
+
 
 
 		@Override
 		protected void onPreExecute() {
 			// TODO Auto-generated method stub
 			super.onPreExecute();
-			dialog.setTitle("Sending Request");
-			dialog.setMessage("Sending....");
-			dialog.show();
+
 		}
 
 		@Override
@@ -212,7 +222,16 @@ public class DriverDestenationList extends Activity {
 				HttpPost post  = new HttpPost(u);
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
 
-				String tempUsername = "karim";
+				final InformationManager imm;
+				imm = new InformationManager(context);
+				JSONObject userJson;
+				userJson = imm.getUserInformation();
+				String tempUsername = "";
+				try {
+					tempUsername = userJson.getString("username");
+				} catch (Exception e) {
+
+				}
 
 				String lon = "22.34";
 				//String.valueOf(location.getLongitude());
@@ -222,7 +241,7 @@ public class DriverDestenationList extends Activity {
 				String overSpeed = "Overspeed";
 				String stops = "Stopped";
 				for (int i=0;i<3;i++){
-					if(i==1){
+					if(i==0){
 						urlparameters.add(new BasicNameValuePair("report_reason", overSpeed));
 					}else{
 						urlparameters.add(new BasicNameValuePair("report_reason", stops));
@@ -266,104 +285,120 @@ public class DriverDestenationList extends Activity {
 			// TODO Auto-generated method stub
 			super.onPostExecute(data);
 
-			dialog.dismiss();
+
 
 
 		}
 
 	}
 
+	class RetrieveDestinationsTask extends AsyncTask<Void, Integer, String>{
 
-	private void getJSON() {
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+		}
 
 
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
 
-		AsyncTask<String, Integer, String> RetrieveDestinationsTask = new AsyncTask<String, Integer, String>() {
-            public void bkalb(){
-				System.out.println("BADER AY SHY");
-				Log.d("bader", "getJSON is RUNINNG");
-			}
+			try {
 
-			@Override
-			protected void onPreExecute() {
-				super.onPreExecute();
+				ArrayList<BasicNameValuePair> urlparameters=new ArrayList<BasicNameValuePair>();
 
-			}
-
-			@Override
-			protected String doInBackground(String... params) {
-// TODO Auto-generated method stub
-				bkalb();
+				URI u=new URI("http://54.88.107.56:80/MyWayWeb/getDestination");
+				DefaultHttpClient client=new DefaultHttpClient();
+				final InformationManager imm;
+				imm = new InformationManager(context);
+				JSONObject userJson;
+				userJson = imm.getUserInformation();
+				String tempUsername = "";
 				try {
+					tempUsername = userJson.getString("username");
+				} catch (Exception e) {
 
-					Log.d("bader", "DO IN BACKGROUND RUNNING");
-
-					ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
-					URI u = new URI("http://54.88.107.56:80/MyWayWeb/getDestination");
-					DefaultHttpClient client = new DefaultHttpClient();
-					HttpPost post = new HttpPost(u);
-					urlparameters.add(new BasicNameValuePair("driverUserName", "omar"));
-					post.setEntity(new UrlEncodedFormEntity(urlparameters));
-					HttpResponse response = client.execute(post);
-					HttpEntity entity = response.getEntity();
-					String data = EntityUtils.toString(entity);
-
-					return data;
-				} catch (MalformedURLException e) {
-// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (URISyntaxException e) {
-// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ClientProtocolException e) {
-// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-// TODO Auto-generated catch block
-					e.printStackTrace();
 				}
-				return null;
+				HttpPost post = new HttpPost(u);
+				urlparameters.add(new BasicNameValuePair("driverUserName", tempUsername));
+				post.setEntity(new UrlEncodedFormEntity(urlparameters));
+
+				HttpResponse response=client.execute(post);
+				HttpEntity entity=response.getEntity();
+				String data=EntityUtils.toString(entity);
+
+				return data;
+
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (URISyntaxException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ClientProtocolException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 
-			@Override
-			protected void onPostExecute(String result) {
-// TODO Auto-generated method stub
-				super.onPostExecute(result);
 
-				try {
-					JSONObject jsnobject = new JSONObject(result);
-					JSONArray jsonArray = new JSONArray(jsnobject.getString("result_data"));
 
-					Log.d("bader", "Strings: " + jsonArray);
+			return null;
+		}
 
-					System.out.print(jsonArray);
-					for (int i = 0; i < jsonArray.length(); i++) {
-						JSONObject desObject = jsonArray.getJSONObject(i);
 
-						Log.d("bader", "Strings: " + desObject);
+		@Override
+		protected void onPostExecute(String data) {
 
-						DriverDestenationList.dStartLat = desObject.getString("destination_Lat");
-						DriverDestenationList.dStartLon = desObject.getString("destination_Lon");
+			// TODO Auto-generated method stub
+			super.onPostExecute(data);
+			//convert the json string to arraylist of events
 
-					}
+			try {
+				JSONObject jsnobject = new JSONObject(data);
+				JSONArray jsonArray = new JSONArray(jsnobject.getString("result_data"));
 
-				} catch (JSONException e) {
-// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+//			    for (int i = 0; i < jsonArray.length(); i++) {
+				JSONObject desObject = jsonArray.getJSONObject(0);
+				String dStartLat = desObject.getString("destination_Lat");
+
+				String dStartLon = desObject.getString("destination_Lon");
+
+
+
+//				Driver d = new Driver();
+//				d.setStartlat(dStartLat);
+//				d.setStartlon(dStartLon);
+				Log.d("bader", dStartLat);
+
+				//Toast.makeText(context, "Lat = " + dStartLat, Toast.LENGTH_LONG).show();
+
+//			    }
+
 				Intent i = new Intent(DriverDestenationList.this, MapDriverList.class);
 
-
-
+				Log.d("bader", "lat is: " + dStartLat + " lng is: " + dStartLon);
+				Toast.makeText(context, "Baaaaaaaadddddr", Toast.LENGTH_LONG).show();
 				i.putExtra("myCoorLat", dStartLat);
 				i.putExtra("myCoorLng", dStartLon);
 
 				startActivity(i);
+
+			}catch(JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 
-		};
-		RetrieveDestinationsTask.execute();
+
+
+		}
 	}
+
+
 
 }
 

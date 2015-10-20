@@ -101,6 +101,11 @@ public class SlidingUtil {
 					activity.startActivity(i);
 					activity.finish();
 				}
+				if (loc == 8){
+					Intent i = new Intent(activity, DigitalActivity.class);
+					activity.startActivity(i);
+					activity.finish();
+				}
   
 			}
 	      
@@ -121,6 +126,7 @@ public class SlidingUtil {
 			list.add(new ItemMenu("Profile", BitmapFactory.decodeResource(a.getResources(), R.drawable.usr)));
 			list.add(new ItemMenu("Parent Monitoring", BitmapFactory.decodeResource(a.getResources(), R.drawable.s_parent_icon)));
 			list.add(new ItemMenu("Favorites", BitmapFactory.decodeResource(a.getResources(), R.drawable.s_ic_profile)));
+			list.add(new ItemMenu("Digital Address", BitmapFactory.decodeResource(a.getResources(), R.drawable.s_poi)));
 		} else { //is logged out
 			list.clear();
 			list.add(new ItemMenu("Home", BitmapFactory.decodeResource(a.getResources(), R.drawable.home)));

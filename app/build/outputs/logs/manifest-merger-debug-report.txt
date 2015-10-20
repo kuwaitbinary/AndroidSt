@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:2:1-255:12
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:2:1-254:12
 	xmlns:android
 		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -232,12 +232,12 @@ MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/CS_Omar/D
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:32:22-64
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:42:5-83
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:37:5-75
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:42:30-80
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:37:22-72
 application
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:44:5-253:19
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:43:5-252:19
 MERGED from [com.google.android.gms:play-services:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.1.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
@@ -345,193 +345,193 @@ MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /Users/CS_Omar
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:22.2.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:47:9-41
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:46:9-41
 	android:allowBackup
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:45:9-35
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:44:9-35
 	android:icon
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:46:9-56
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:45:9-56
 	android:theme
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:48:9-40
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:47:9-40
 activity#com.pifss.myway.LoginRegisterActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:49:9-54:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:48:9-53:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:51:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:50:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:50:13-50
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:49:13-50
 activity#com.pifss.myway.Temp1Activity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:55:9-58:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:54:9-57:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:57:13-57
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:56:13-57
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:56:13-42
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:55:13-42
 activity#com.pifss.myway.ProfileHomeActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:59:9-60:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:58:9-59:20
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:59:19-54
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:58:19-54
 activity#com.pifss.myway.ProfileEditActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:61:9-64:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:60:9-63:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:63:13-64
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:62:13-64
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:62:13-48
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:61:13-48
 activity#com.pifss.myway.FavoritesActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:65:9-68:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:64:9-67:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:67:13-61
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:66:13-61
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:66:13-46
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:65:13-46
 activity#com.pifss.myway.SplashScreen
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:69:9-78:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:68:9-77:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:71:13-65
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:70:13-65
 	android:theme
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:72:13-83
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:71:13-83
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:70:13-41
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:69:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:73:13-77:29
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:72:13-76:29
 action#android.intent.action.MAIN
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:74:17-69
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:73:17-69
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:74:25-66
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:73:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:76:17-77
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:75:17-77
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:76:27-74
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:75:27-74
 activity#com.pifss.myway.Home
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:79:9-82:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:78:9-81:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:81:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:80:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:80:13-33
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:79:13-33
 activity#com.pifss.myway.UISettings
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:83:9-86:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:82:9-85:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:85:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:84:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:84:13-39
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:83:13-39
 activity#com.pifss.myway.Activity_TrafficMain
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:87:9-90:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:86:9-89:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:89:13-64
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:88:13-64
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:87:13-49
 activity#com.pifss.myway.Activity_AccidentReport
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:91:9-94:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:90:9-93:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:93:13-77
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:92:13-77
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:92:13-52
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:91:13-52
 activity#com.pifss.myway.Activity_TrafficJam
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:95:9-98:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:94:9-97:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:97:13-73
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:96:13-73
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:96:13-48
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:95:13-48
 activity#com.pifss.myway.Activity_hazard
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:99:9-102:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:98:9-101:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:101:13-67
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:100:13-67
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:100:13-44
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:99:13-44
 activity#com.pifss.myway.Activity_other
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:103:9-107:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:102:9-106:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:105:13-66
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:104:13-66
 	android:theme
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:106:13-44
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:105:13-44
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:104:13-43
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:103:13-43
 activity#com.pifss.myway.Activity_ViewReport
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:108:9-111:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:107:9-110:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:110:13-73
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:109:13-73
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:109:13-48
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:108:13-48
 activity#com.pifss.myway.Activity_ReportDetails
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:112:9-115:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:111:9-114:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:114:13-76
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:113:13-76
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:113:13-51
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:112:13-51
 activity#com.pifss.myway.POIActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:116:9-119:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:115:9-118:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:118:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:117:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:117:13-40
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:116:13-40
 activity#com.pifss.myway.POI1Activity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:120:9-123:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:119:9-122:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:122:13-56
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:121:13-56
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:121:13-41
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:120:13-41
 activity#com.pifss.myway.POI2Activity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:124:9-127:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:123:9-126:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:126:13-56
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:125:13-56
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:125:13-41
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:124:13-41
 activity#com.pifss.myway.POI3Activity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:128:9-131:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:127:9-130:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:130:13-56
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:129:13-56
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:129:13-41
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:128:13-41
 activity#com.pifss.myway.MainActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:132:9-133:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:131:9-132:20
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:132:19-47
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:131:19-47
 activity#com.pifss.myway.ParentalMonitoringActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:134:9-137:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:133:9-136:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:136:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:135:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:135:13-55
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:134:13-55
 activity#com.pifss.myway.ParentMonitoring_Pairing
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:138:9-141:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:137:9-140:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:140:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:139:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:139:13-53
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:138:13-53
 activity#com.pifss.myway.ParentMonitoring_Pairing_DriverPairing
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:142:9-145:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:141:9-144:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:144:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:143:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:143:13-67
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:142:13-67
 activity#com.pifss.myway.DriverProfileActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:146:9-149:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:145:9-148:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:148:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:147:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:147:13-50
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:146:13-50
 activity#com.pifss.myway.ParentMonitoring_Report_CustomListView
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:150:9-153:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:149:9-152:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:152:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:151:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:151:13-67
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:150:13-67
 activity#com.pifss.myway.Parent_monitoring_report
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:154:9-157:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:153:9-156:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:156:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:155:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:155:13-53
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:154:13-53
 activity#com.pifss.myway.MonitoringActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:158:9-161:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:157:9-160:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:160:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:159:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:159:13-47
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:158:13-47
 activity#com.pifss.myway.DriverMainActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:162:9-165:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:161:9-164:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:164:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:163:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:163:13-47
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:162:13-47
 meta-data#com.google.android.gms.version
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:167:9-169:69
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:166:9-168:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
@@ -568,121 +568,125 @@ MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:168:13-58
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:167:13-58
 	android:value
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:169:13-66
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:168:13-66
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:170:9-172:71
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:169:9-171:71
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:171:13-62
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:170:13-62
 	android:value
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:172:13-68
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:171:13-68
 activity#com.pifss.myway.FavoritesViewActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:174:9-177:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:173:9-176:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:176:13-66
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:175:13-66
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:175:13-50
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:174:13-50
 activity#com.pifss.myway.AddFavoriteActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:178:9-181:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:177:9-180:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:180:13-64
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:179:13-64
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:179:13-48
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:178:13-48
 activity#com.pifss.myway.PointOnMapAvtivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:182:9-185:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:181:9-184:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:184:13-73
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:183:13-73
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:183:13-47
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:182:13-47
 activity#com.pifss.myway.T3MapActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:186:9-189:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:185:9-188:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:188:13-58
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:187:13-58
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:187:13-42
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:186:13-42
 activity#com.pifss.myway.MapPointActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:190:9-193:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:189:9-192:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:192:13-61
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:191:13-61
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:191:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:190:13-45
 activity#com.pifss.myway.EventsViewActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:194:9-197:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:193:9-196:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:196:13-63
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:195:13-63
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:195:13-47
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:194:13-47
 activity#com.pifss.myway.EventsCategoriesViewActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:198:9-201:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:197:9-200:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:200:13-74
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:199:13-74
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:199:13-57
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:198:13-57
 activity#com.pifss.myway.EventInfoViewActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:202:9-205:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:201:9-204:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:204:13-67
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:203:13-67
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:203:13-50
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:202:13-50
 activity#com.pifss.myway.RequestEventActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:206:9-209:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:205:9-208:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:208:13-65
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:207:13-65
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:207:13-49
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:206:13-49
 activity#com.pifss.myway.SetLocationActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:210:9-211:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:209:9-210:20
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:210:19-54
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:209:19-54
 activity#com.pifss.myway.DriverDestenationList
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:212:9-215:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:211:9-214:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:214:13-75
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:213:13-75
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:213:13-50
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:212:13-50
 activity#com.pifss.myway.direction.DirectionMapsActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:216:9-224:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:215:9-223:20
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:216:19-66
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:215:19-66
 meta-data#android.app.searchable
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:217:13-219:54
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:216:13-218:54
 	android:resource
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:219:17-51
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:218:17-51
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:218:17-54
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:217:17-54
 intent-filter#android.intent.action.SEARCH
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:221:13-223:29
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:220:13-222:29
 action#android.intent.action.SEARCH
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:222:17-71
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:221:17-71
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:222:25-68
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:221:25-68
 activity#com.pifss.myway.findPlace.FindPlaceActivity
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:227:9-244:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:224:9-241:20
 	android:label
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:229:13-45
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:226:13-45
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:228:13-56
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:225:13-56
 	android:launchMode
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:230:13-43
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:227:13-43
 meta-data#android.app.default_searchable
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:236:13-238:64
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:233:13-235:64
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:237:17-62
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:234:17-62
 	android:value
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:238:17-61
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:235:17-61
 provider#com.pifss.myway.findPlace.PlaceProvider
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:246:9-249:40
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:243:9-246:40
 	android:exported
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:249:13-37
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:246:13-37
 	android:authorities
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:248:13-74
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:245:13-74
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:247:13-52
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:244:13-52
 activity#com.pifss.myway.MapDriverList
-ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:251:9-252:20
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:248:9-249:20
 	android:name
-		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:251:19-48
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:248:19-48
+activity#com.pifss.myway.DigitalActivity
+ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:250:9-251:20
+	android:name
+		ADDED from /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/AndroidManifest.xml:250:19-50
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:26:9-29:64

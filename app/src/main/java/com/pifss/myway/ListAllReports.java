@@ -31,7 +31,7 @@ class DownloadTaskReport extends AsyncTask<String, Integer, String>{
 	protected String doInBackground(String... params) {
 		URI u = null;
 		try {
-			 u= new URI("http://192.168.8.102:8080//MyWayWeb/viewAllTrafficReports");
+			 u= new URI("http://54.88.107.56:80/MyWayWeb/viewAllTrafficReports");
 				DefaultHttpClient client=new DefaultHttpClient();
 				HttpPost post=new HttpPost(u);
 				String finalString="hello baby";

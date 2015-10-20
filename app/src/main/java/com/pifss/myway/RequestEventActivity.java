@@ -305,7 +305,7 @@ public class RequestEventActivity extends Activity {
 				HttpPost post = null;
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
 
-				u = new URI("http://172.16.8.105:8080/MyWayWeb/requestEvent");
+				u = new URI("http://54.88.107.56:80/MyWayWeb/requestEvent");
 				post = new HttpPost(u);
 
 				SharedPreferences pref = getSharedPreferences(PREF_NAME,

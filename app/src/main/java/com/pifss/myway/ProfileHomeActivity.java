@@ -198,7 +198,7 @@ public class ProfileHomeActivity extends Activity {
 			tvUsername.setText(user.getUsername());
 			Toast.makeText(context,"email = " + user.getEmail(), Toast.LENGTH_LONG).show();
 
-			userImg.setImageBitmap(imm.decodeBase64(user.getProfilePicture()));
+			//userImg.setImageBitmap(imm.decodeBase64(user.getProfilePicture()));
 			//set email
 			
 		}
