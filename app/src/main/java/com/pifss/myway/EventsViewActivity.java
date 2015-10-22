@@ -22,7 +22,12 @@ public class EventsViewActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_events_view);
-		
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+
 		eventNamesList.clear();
 		catEventsList.clear();
 		Intent intent = getIntent();
@@ -42,32 +47,32 @@ public class EventsViewActivity extends Activity {
 				eventNamesList.add(e.getName());
 			}
 		}
-		
+
 		final ArrayAdapter<String> a = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, eventNamesList);
-		
+
 		ListView lvEv = (ListView) findViewById(R.id.listView2);
-		
+
 		lvEv.setAdapter(a);
-		
+
 		lvEv.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
+									int position, long id) {
 				// TODO Auto-generated method stub
 				if (catEventsList.size() == 0){
-					//nothing happens 
+					//nothing happens
 				} else {
 					Intent in = new Intent(EventsViewActivity.this, EventInfoViewActivity.class);
-					
+
 					in.putExtra("pos", position+"");
-					
+
 					startActivity(in);
 				}
-				
+
 			}
 		});
-		
+
 //		 use the following line to add the sliding menu to the current page
 		SlidingUtil.SetSliding(this);
 	}

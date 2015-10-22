@@ -51,20 +51,15 @@
 
             <!-- launcher was here -->
         </activity>
-        <activity
-            android:name=".Temp1Activity"
-            android:label="@string/title_activity_temp1" >
-        </activity>
-        <activity android:name=".ProfileHomeActivity" >
+
+        <activity android:name=".ProfileHomeActivity"
+            android:label="User Profile">
         </activity>
         <activity
             android:name=".ProfileEditActivity"
-            android:label="@string/title_activity_profile_edit" >
+            android:label="Edit User Profile" >
         </activity>
-        <activity
-            android:name=".FavoritesActivity"
-            android:label="@string/title_activity_favorites" >
-        </activity>
+
         <activity
             android:name=".SplashScreen"
             android:label="@string/title_activity_splash_screen"
@@ -81,53 +76,37 @@
         </activity>
         <activity
             android:name=".UISettings"
-            android:label="@string/app_name" >
+            android:label="Settings" >
         </activity>
         <activity
             android:name=".Activity_TrafficMain"
-            android:label="@string/title_activity_traffic_main" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name=".Activity_AccidentReport"
-            android:label="@string/title_activity_activity__accident_report" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name=".Activity_TrafficJam"
-            android:label="@string/title_activity_activity__traffic_jam" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name=".Activity_hazard"
-            android:label="@string/title_activity_activity_hazard" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name=".Activity_other"
-            android:label="@string/title_activity_activity_other"
-            android:theme="@style/AppTheme" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name=".Activity_ViewReport"
-            android:label="@string/title_activity_activity__view_report" >
+            android:label="Road Reports" >
         </activity>
         <activity
             android:name=".Activity_ReportDetails"
-            android:label="@string/title_activity_activity__report_details" >
+            android:label="Road Reports" >
         </activity>
-        <activity
-            android:name=".POIActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name=".POI1Activity"
-            android:label="@string/title_activity_poi1" >
-        </activity>
-        <activity
-            android:name=".POI2Activity"
-            android:label="@string/title_activity_poi2" >
-        </activity>
-        <activity
-            android:name=".POI3Activity"
-            android:label="@string/title_activity_poi3" >
-        </activity>
+
         <activity android:name=".MainActivity" >
         </activity>
         <activity
@@ -172,45 +151,37 @@
 
         <activity
             android:name=".FavoritesViewActivity"
-            android:label="@string/title_activity_favorites_view" >
+            android:label="Favorites" >
         </activity>
         <activity
             android:name=".AddFavoriteActivity"
-            android:label="@string/title_activity_add_favorite" >
+            android:label="Add Favorite" >
         </activity>
-        <activity
-            android:name=".PointOnMapAvtivity"
-            android:label="@string/title_activity_point_on_map_avtivity" >
-        </activity>
-        <activity
-            android:name=".T3MapActivity"
-            android:label="@string/title_activity_t3_map" >
-        </activity>
+
         <activity
             android:name=".MapPointActivity"
-            android:label="@string/title_activity_map_point" >
+            android:label="Map" >
         </activity>
         <activity
             android:name=".EventsViewActivity"
-            android:label="@string/title_activity_events_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name=".EventsCategoriesViewActivity"
-            android:label="@string/title_activity_events_categories_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name=".EventInfoViewActivity"
-            android:label="@string/title_activity_event_info_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name=".RequestEventActivity"
-            android:label="@string/title_activity_request_event" >
+            android:label="Request Event" >
         </activity>
         <activity android:name=".SetLocationActivity" >
         </activity>
         <activity
-            android:name=".DriverDestenationList"
-            android:label="@string/title_activity_driver_destenation_list" >
+            android:name=".DriverDestenationList" >
         </activity>
         <activity android:name=".direction.DirectionMapsActivity" >
             <meta-data
@@ -247,7 +218,8 @@
 
         <activity android:name=".MapDriverList" >
         </activity>
-        <activity android:name=".DigitalActivity" >
+        <activity android:name=".DigitalActivity"
+            android:label="Digital Address">
         </activity>
     </application>
 

@@ -45,47 +45,43 @@ public class EventsCategoriesViewActivity extends Activity {
 	static ArrayList<Event> eventsList = new ArrayList<Event>();
 	ListView lvEvents;
 	public final static String PREF_NAME = "userInformation";
+
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_events_categories_view);
-		
-		catNames.add("Mall");
-		catNames.add("Concerts");
-		catNames.add("Conventions");
-		
+	protected void onResume() {
+		super.onResume();
+
 		eventsList.clear();
 		eventsNames.clear();
 		new RetrieveFavsTask().execute();
-		
+
 		//***********Controller********************//
-		
+
 		final ArrayAdapter<String> adapter = new ArrayAdapter<String>(EventsCategoriesViewActivity.this, android.R.layout.simple_list_item_1, catNames);
-		
+
 		//***************View****************//
 		lvEvents = (ListView) findViewById(R.id.listViewCategoryEvents);
-				
+
 		lvEvents.setAdapter(adapter);
-		
+
 		lvEvents.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
+									int position, long id) {
 				// TODO Auto-generated method stub
 				Intent i = new Intent(EventsCategoriesViewActivity.this, EventsViewActivity.class);
 				i.putExtra("cat", catNames.get(position));
 				startActivity(i);
 			}
-		
+
 		});
-		
+
 		Button bReq = (Button) findViewById(R.id.buttonReqEvent);
-		
+
 		final SharedPreferences prefs = getSharedPreferences(PREF_NAME, MODE_APPEND);
 		if (prefs.getBoolean("isLoggedIn", false)){
 			bReq.setOnClickListener(new OnClickListener() {
-				
+
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
@@ -96,11 +92,21 @@ public class EventsCategoriesViewActivity extends Activity {
 		} else {
 			bReq.setText("Request Event (Log in needed!)");
 		}
-		
-		
+
+
 		//use the following line to add the sliding menu to the current page
-				SlidingUtil.SetSliding(this);
-		
+		SlidingUtil.SetSliding(this);
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_events_categories_view);
+
+		catNames.add("Concert");
+		catNames.add("Convention");
+		catNames.add("Seminar");
+		catNames.add("Other");
 	}
 
 	@Override

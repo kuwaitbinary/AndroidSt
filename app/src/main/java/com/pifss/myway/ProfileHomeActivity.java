@@ -26,6 +26,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
@@ -83,6 +84,7 @@ public class ProfileHomeActivity extends Activity {
 		}
 		*/
 		//////////////////////////////// Go to edit profile page /////////////////////////////////////////
+		/*
 		ImageView imIcon = (ImageView) findViewById(R.id.imageViewEditIcon); //edit profile icon
 
 		imIcon.setOnClickListener(new OnClickListener() {
@@ -96,6 +98,7 @@ public class ProfileHomeActivity extends Activity {
 				finish();
 			}
 		});
+		*/
 		//////////////// button to log out /////////////////////////
 		
 		ImageView imLogOut = (ImageView) findViewById(R.id.imageViewLogout);
@@ -135,6 +138,24 @@ public class ProfileHomeActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_profile_home, menu);
 		return true;
 	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.edit_profile) {
+
+			Intent i = new Intent(ProfileHomeActivity.this, ProfileEditActivity.class);
+			startActivity(i);
+			finish();
+
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
     //to send the user to the home page when pressing the back button
 	@Override
     public void onBackPressed() {
@@ -193,14 +214,13 @@ public class ProfileHomeActivity extends Activity {
 			final InformationManager imm = new InformationManager(context);
 
 			TextView tvUsername = (TextView) findViewById(R.id.textViewProfileUsername);
+			TextView email = (TextView) findViewById(R.id.userEmail);
 			ImageView userImg = (ImageView) findViewById(R.id.imageViewProfileImage);
 
 			tvUsername.setText(user.getUsername());
-			Toast.makeText(context,"email = " + user.getEmail(), Toast.LENGTH_LONG).show();
+			email.setText(user.getEmail());
 
 			//userImg.setImageBitmap(imm.decodeBase64(user.getProfilePicture()));
-			//set email
-			
 		}
 		
 	}

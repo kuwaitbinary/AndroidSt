@@ -39,10 +39,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -59,8 +62,9 @@ public class RequestEventActivity extends Activity {
 
 	EditText etName;
 	EditText etDec;
-	EditText etCat;
-	
+	//EditText etCat;
+
+	private  String selectedType = "";
 
 	private int mYear;
 	private int mMonth;
@@ -89,7 +93,25 @@ public class RequestEventActivity extends Activity {
 		mPickDate2 = (Button) findViewById(R.id.button3);
 		etName = (EditText) findViewById(R.id.editText1);
 		etDec = (EditText) findViewById(R.id.editText2);
-		etCat = (EditText) findViewById(R.id.editText3);
+		//etCat = (EditText) findViewById(R.id.editText3);
+
+		Spinner spinner = (Spinner) findViewById(R.id.eventType);
+		final String [] items = {"Concert", "Convention", "Seminar", "Other"};
+
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
+		spinner.setAdapter(adapter);
+
+		spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+			@Override
+			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+				selectedType = items[position];
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> parent) {
+
+			}
+		});
 		
 		// add a click listener to the button
 		mPickDate.setOnClickListener(new View.OnClickListener() {
@@ -165,7 +187,7 @@ public class RequestEventActivity extends Activity {
 
 	public boolean validateRequest() {
 		if (etName.getText().toString().equals("")
-				|| etDec.getText().toString().equals("") || etCat.getText().toString().equals("")) {
+				|| etDec.getText().toString().equals("")) {
 			return false;
 		} else if (point == null || startDate.equals("") || endDate.equals("")) {
 			return false;
@@ -332,7 +354,7 @@ public class RequestEventActivity extends Activity {
 						tempUsername));
 				urlparameters.add(new BasicNameValuePair("startDate", startDate));
 				urlparameters.add(new BasicNameValuePair("endDate", endDate));
-				urlparameters.add(new BasicNameValuePair("category", etCat.getText().toString()));
+				urlparameters.add(new BasicNameValuePair("category", selectedType));
 				urlparameters.add(new BasicNameValuePair("description", etDec.getText().toString()));
 				urlparameters.add(new BasicNameValuePair("image", encodedImage));
 				

@@ -14,34 +14,37 @@
         android:layout_marginTop="54dp"
         android:ems="10"
         android:singleLine="true"
+        android:hint="Comment"
         android:textColor="#FFFFFF" />
 
     <ImageView
         android:id="@+id/heavy"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_alignTop="@+id/moderate"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/heavy" />
+        android:src="@drawable/heavy"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/moderate"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_alignParentTop="true"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="60dp"
-        android:layout_toLeftOf="@+id/heavy"
-        android:src="@drawable/moderate" />
+        android:src="@drawable/moderate"
+        android:layout_alignTop="@+id/heavy"
+        android:layout_toStartOf="@+id/submit"
+        android:layout_marginEnd="40dp" />
 
     <ImageView
         android:id="@+id/standstill"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/heavy"
         android:layout_marginRight="24dp"
-        android:src="@drawable/standstill" />
+        android:src="@drawable/standstill"
+        android:layout_above="@+id/comment"
+        android:layout_toEndOf="@+id/submit"
+        android:layout_marginStart="40dp" />
 
     <Button
         android:id="@+id/submit"
@@ -52,5 +55,32 @@
         android:layout_marginTop="47dp"
         android:text="submit"
         android:textColor="#FFFFA217" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Moderate"
+        android:id="@+id/textView"
+        android:layout_below="@+id/moderate"
+        android:layout_alignEnd="@+id/moderate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Heavy"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/heavy"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="StandStill"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/standstill"
+        android:layout_alignStart="@+id/standstill" />
 
 </RelativeLayout><!-- From: file:/Users/CS_Omar/Desktop/android_studio_workspace/AndroidSt/app/src/main/res/layout/activity_traffic_jam.xml -->

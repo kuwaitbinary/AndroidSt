@@ -58,18 +58,12 @@
             <!-- launcher was here -->
         </activity>
         <activity
-            android:name="com.pifss.myway.Temp1Activity"
-            android:label="@string/title_activity_temp1" >
-        </activity>
-        <activity android:name="com.pifss.myway.ProfileHomeActivity" >
+            android:name="com.pifss.myway.ProfileHomeActivity"
+            android:label="User Profile" >
         </activity>
         <activity
             android:name="com.pifss.myway.ProfileEditActivity"
-            android:label="@string/title_activity_profile_edit" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.FavoritesActivity"
-            android:label="@string/title_activity_favorites" >
+            android:label="Edit User Profile" >
         </activity>
         <activity
             android:name="com.pifss.myway.SplashScreen"
@@ -87,52 +81,35 @@
         </activity>
         <activity
             android:name="com.pifss.myway.UISettings"
-            android:label="@string/app_name" >
+            android:label="Settings" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_TrafficMain"
-            android:label="@string/title_activity_traffic_main" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_AccidentReport"
-            android:label="@string/title_activity_activity__accident_report" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_TrafficJam"
-            android:label="@string/title_activity_activity__traffic_jam" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_hazard"
-            android:label="@string/title_activity_activity_hazard" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_other"
-            android:label="@string/title_activity_activity_other"
-            android:theme="@style/AppTheme" >
+            android:label="Post Road Report" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_ViewReport"
-            android:label="@string/title_activity_activity__view_report" >
+            android:label="Road Reports" >
         </activity>
         <activity
             android:name="com.pifss.myway.Activity_ReportDetails"
-            android:label="@string/title_activity_activity__report_details" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.POIActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.POI1Activity"
-            android:label="@string/title_activity_poi1" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.POI2Activity"
-            android:label="@string/title_activity_poi2" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.POI3Activity"
-            android:label="@string/title_activity_poi3" >
+            android:label="Road Reports" >
         </activity>
         <activity android:name="com.pifss.myway.MainActivity" >
         </activity>
@@ -178,45 +155,35 @@
 
         <activity
             android:name="com.pifss.myway.FavoritesViewActivity"
-            android:label="@string/title_activity_favorites_view" >
+            android:label="Favorites" >
         </activity>
         <activity
             android:name="com.pifss.myway.AddFavoriteActivity"
-            android:label="@string/title_activity_add_favorite" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.PointOnMapAvtivity"
-            android:label="@string/title_activity_point_on_map_avtivity" >
-        </activity>
-        <activity
-            android:name="com.pifss.myway.T3MapActivity"
-            android:label="@string/title_activity_t3_map" >
+            android:label="Add Favorite" >
         </activity>
         <activity
             android:name="com.pifss.myway.MapPointActivity"
-            android:label="@string/title_activity_map_point" >
+            android:label="Map" >
         </activity>
         <activity
             android:name="com.pifss.myway.EventsViewActivity"
-            android:label="@string/title_activity_events_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name="com.pifss.myway.EventsCategoriesViewActivity"
-            android:label="@string/title_activity_events_categories_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name="com.pifss.myway.EventInfoViewActivity"
-            android:label="@string/title_activity_event_info_view" >
+            android:label="Events" >
         </activity>
         <activity
             android:name="com.pifss.myway.RequestEventActivity"
-            android:label="@string/title_activity_request_event" >
+            android:label="Request Event" >
         </activity>
         <activity android:name="com.pifss.myway.SetLocationActivity" >
         </activity>
-        <activity
-            android:name="com.pifss.myway.DriverDestenationList"
-            android:label="@string/title_activity_driver_destenation_list" >
+        <activity android:name="com.pifss.myway.DriverDestenationList" >
         </activity>
         <activity android:name="com.pifss.myway.direction.DirectionMapsActivity" >
             <meta-data
@@ -253,7 +220,9 @@
 
         <activity android:name="com.pifss.myway.MapDriverList" >
         </activity>
-        <activity android:name="com.pifss.myway.DigitalActivity" >
+        <activity
+            android:name="com.pifss.myway.DigitalActivity"
+            android:label="Digital Address" >
         </activity>
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

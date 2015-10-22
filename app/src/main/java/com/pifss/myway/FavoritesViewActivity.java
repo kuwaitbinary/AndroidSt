@@ -269,7 +269,7 @@ public class FavoritesViewActivity extends Activity {
 				ArrayList<BasicNameValuePair> urlparameters = new ArrayList<BasicNameValuePair>();
 
 				URI u = new URI(
-						"http://172.16.8.105:8080/MyWayWeb/deleteFavorite");
+						"http://54.88.107.56:80/MyWayWeb/deleteFavorite");
 				DefaultHttpClient client = new DefaultHttpClient();
 
 				HttpPost post = new HttpPost(u);

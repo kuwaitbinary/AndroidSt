@@ -381,8 +381,6 @@ public class DriverDestenationList extends Activity {
 
 				Intent i = new Intent(DriverDestenationList.this, MapDriverList.class);
 
-				Log.d("bader", "lat is: " + dStartLat + " lng is: " + dStartLon);
-				Toast.makeText(context, "Baaaaaaaadddddr", Toast.LENGTH_LONG).show();
 				i.putExtra("myCoorLat", dStartLat);
 				i.putExtra("myCoorLng", dStartLon);
 

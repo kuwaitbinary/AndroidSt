@@ -112,7 +112,7 @@ public class DigitalActivity extends Activity {
                 i.putExtra("long",location.getString("longitude") );
                 startActivity(i);
                 finish();
-                
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }

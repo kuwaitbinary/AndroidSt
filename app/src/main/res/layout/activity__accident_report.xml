@@ -31,6 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
+        android:hint="Comment"
         android:singleLine="true"
         android:textColor="#FFFFFF" >
 

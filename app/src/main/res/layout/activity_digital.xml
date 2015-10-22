@@ -26,6 +26,7 @@
         android:id="@+id/DAddress"
         android:layout_below="@+id/textView6"
         android:hint="Digital Address"
+        android:textColor="#FFFFFF"
         android:layout_centerHorizontal="true" />
 
     <Button
